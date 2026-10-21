@@ -1,0 +1,14 @@
+﻿metric,label,baseline_count,rag_count,denominator,note
+Correctness,Correct,51,93,100,Preliminary LLM-judge labels; review before reporting.
+Correctness,Incorrect,44,5,100,Preliminary LLM-judge labels; review before reporting.
+Correctness,Partially correct,5,0,100,Preliminary LLM-judge labels; review before reporting.
+Correctness,Unanswerable/insufficient evidence,0,2,100,Preliminary LLM-judge labels; review before reporting.
+Hallucination,No,56,97,100,Preliminary LLM-judge labels; review before reporting.
+Hallucination,Unclear,0,0,100,Preliminary LLM-judge labels; review before reporting.
+Hallucination,Yes,44,3,100,Preliminary LLM-judge labels; review before reporting.
+Faithfulness,Not applicable,5,0,100,Preliminary LLM-judge labels; review before reporting.
+Faithfulness,Partially supported,7,2,100,Preliminary LLM-judge labels; review before reporting.
+Faithfulness,Supported,48,93,100,Preliminary LLM-judge labels; review before reporting.
+Faithfulness,Unsupported,40,5,100,Preliminary LLM-judge labels; review before reporting.
+Responses,Non-empty,100,100,100,"Generation completeness, not a quality metric."
+Retrieval,Relevant and sufficient,,95,100,Judged relevance of retrieved context.
